@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #one{
+            position: relative;
+        }
+        #two{
+            position: absolute;
+            top: 665px;
+            left: 512px;
+             height: 220px;
+            width: 200px;
+            background-color: red; /* For browsers that do not support gradients */
+            background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+            border: 3px solid black;
+            border-radius: 50%;
+            animation-name: example;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+}
+@keyframes example {
+             
+             from{transform: rotate(0deg);}
+             to{ transform: rotate(360deg);}
+}
+#three{
+            position: absolute;
+            top: 665px;
+            left: 900px;
+             height: 220px;
+            width: 200px;
+            background-color: red; /* For browsers that do not support gradients */
+            background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+            border: 3px solid black;
+            border-radius: 50%;
+            animation-name: example;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+}
+@keyframes example {
+             
+             from{transform: rotate(0deg);}
+             to{ transform: rotate(360deg);}
+         }
+        
+            
+       </style>
+</head>
+       <body>
+        <div id="one">
+            <img src="./ccycless.gif">
+        </div>
+        <div id="two"></div>
+        <div id="three"></div>
+
+       </body>     
+            </html>
+            
+         
+           
